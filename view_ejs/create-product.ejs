@@ -1,0 +1,16 @@
+<%- include('./partials/head')  %> 
+
+<h2>Nuevo Producto</h2>
+<form action="/products" method="post">
+    <label>Title</label>
+    <input name="title">
+    <label>Price:</label>
+    <input name="price">
+    <label>Thumbnail:</label>
+    <input name="thumbnail">
+    <input type="submit" value="send" class="btn btn-primary" >
+</form>
+<a href="/products" class="btn btn-success">View products in database</a>
+<%- include('./partials/foot')  %> 
+
+
