@@ -2,7 +2,7 @@ doctype html
 html
     include includes/head.pug
     body 
-        h2 Create a product
+        h2 Nuevo producto 
         form(action='/products' method='post')
             label Title:
             input(name='title')
@@ -11,5 +11,5 @@ html
             label Thumbnail:
             input(name='thumbnail')
             input(type='submit')
-        a.btn.btn-success(href='/products') View products in database
+        a.btn.btn-success(href='/products') Ver Productos
         include includes/foot.pug
